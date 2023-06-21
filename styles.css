@@ -34,15 +34,14 @@ body {
 }
 
 .search-input {
-    width: 400px;
+    width: 0px;
     border: none;
-    padding:0 10px;
-    transition: width 1s ease-in;
+    transition: width .5s ease-in;
 }
 
-.search-input.w0 {
-    width: 0px;
-    padding:0 0;
+.search-input.visible {
+    padding: 0 10px;
+    width: 400px;
 }
 
 .search-input:focus {
