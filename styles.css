@@ -31,12 +31,14 @@ body {
 
 .search-btn:hover {
     cursor: pointer;
+    background-color: grey;
+    color: white;
 }
 
 .search-input {
     width: 0px;
     border: none;
-    transition: width .5s ease-in;
+    transition: width .5s ease-out;
 }
 
 .search-input.visible {
