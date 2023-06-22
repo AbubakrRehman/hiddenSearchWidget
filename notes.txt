@@ -1,0 +1,3 @@
+1> toggel can also be used to add and remove classes on every click with to use a variable.
+2> transition is important to give good effect.
+3> tranform: tranlate(-50%) is used to center element in actual sense along with position: absolute.
